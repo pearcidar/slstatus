@@ -1,0 +1,5 @@
+#! /bin/sh
+
+root="/dev/sda2"
+
+df -h | grep $root | awk '{print $5 $4}' | sed 's/%/% /g' | xargs -r echo

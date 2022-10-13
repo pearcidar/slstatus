@@ -1,0 +1,2 @@
+#! /bin/sh
+uptime | awk '{print $3}' | xargs -r echo 

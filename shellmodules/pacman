@@ -1,0 +1,2 @@
+#! /bin/sh
+pacman -Qq | wc -l | xargs -r echo
