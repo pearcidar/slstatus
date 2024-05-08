@@ -1,3 +1,8 @@
 #! /bin/sh
-date | awk '{print $1" "$2" "$3" ( "$4" )"}'
+date="$(date | awk '{print $1" "$2" "$3" [ "$4}')"
+
+hour="| $(date +%H) ]"
+
+echo "$date $hour"
+
 

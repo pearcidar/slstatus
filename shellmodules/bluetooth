@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+power=$(upower -d | grep percentage | awk '{print $2}'| sed -n '1p')
+
+if [ $power == "100%" ]; then
+    echo "󰁹 $power"
+elif [ $power == "90%" ]; then
+    echo "󰂂 $power"
+elif [ $power == "80%" ]; then
+    echo "󰂁 $power"
+elif [ $power == "70%" ]; then
+    echo "󰂀 $power"
+elif [ $power == "60%" ]; then
+    echo "󰁿 $power"
+elif [ $power == "50%" ]; then
+    echo "󰁾 $power"
+elif [ $power == "40%" ]; then
+    echo "󰁽 $power"
+elif [ $power == "30%" ]; then
+    echo "󰁼 $power"
+elif [ $power == "20%" ]; then
+    echo "󰁻 $power"
+elif [ $power == "10%" ]; then
+    echo "󰁺 $power"
+else 
+    echo "󰂲"
+fi
+
+
+

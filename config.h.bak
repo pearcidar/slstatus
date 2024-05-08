@@ -12,15 +12,15 @@ static const char unknown_str[] = "NULL";
 static const struct arg args[] = {
 	/* function format          argument */
 
-	{ run_command,  "^b#1f2335^^c#e0af78^  󱓉 %s ^c#bb9af7^ ", "pamixer --get-volume-human" },
+	{ run_command,  "^b#1f2335^^c#ebbcba^  󱓉 %s ^c#755282^ ", "pamixer --get-volume-human" },
 
-	{ run_command,  "^b#090618^^c#090618^%^c#bb9af7^", "echo '▋' "},
+	{ run_command,  "^b#1e1e2e^^c#1e1e2e^%^c#755282^", "echo '▋' "},
 
-        { cpu_perc,    "^b#1f2335^ 󰝤  %s% ^c#7aa2f7^ ", NULL },
+        { cpu_perc,    "^b#1f2335^ 󰝤  %s% ^c#dd6777^ ", NULL },
 
  //       { run_command,    "^b#1f2335^  %s ^c#9ece6a^ ", "sh ~/sens.sh " },
 
-	{ ram_perc,    "^b#1f2335^ 󰔶  %s% ^c#f7768e^ ", NULL },
+	{ ram_perc,    "^b#1f2335^ 󰔶  %s% ^c#923864^ ", NULL },
 
 //	{ netspeed_rx,    " 🔼 %s% /", "enp2s0" },
 
@@ -28,21 +28,21 @@ static const struct arg args[] = {
 
 //        { run_command, " 🌽 %s |", "sh /home/hy/.files/scripts/statusbar/kern" },
 
-	{ run_command,  "^b#090618^^c#1e1e2e^%^c#f7768e^", "echo '▋' "},
+	{ run_command,  "^b#1e1e2e^^c#1e1e2e^%^c#ae5477^", "echo '▋' "},
 
         { run_command, "^b#1f2335^   %s ^c#eabbb9^", "sh /home/hy/.cystem/slstatus/shellmodules/pacman" },
 
-	{ run_command,  "^b#090618^^c#1e1e2e^%^c#eabbb9^", "echo '▋' "},
+	{ run_command,  "^b#1e1e2e^^c#1e1e2e^%^c#eabbb9^", "echo '▋' "},
 
-        { run_command, "^b#1f2335^ %s ^c#eabbb9^ ", "sh /home/hy/.cystem/slstatus/shellmodules/bluetooth" },
+        { run_command, "^b#1f2335^ %s ^c#e5b0b8^ ", "sh /home/hy/.cystem/slstatus/shellmodules/bluetooth" },
 
-	{ run_command,  "^b#090618^^c#1e1e2e^%^c#f7768e^", "echo '▋' "},
+	{ run_command,  "^b#1e1e2e^^c#1e1e2e^%^c#f7768e^", "echo '▋' "},
 
 //        { run_command, "^b#1f2335^ %s^c#9bced7^ ", "sh /home/hy/.cystem/slstatus/shellmodules/weather" },
 
 //        { run_command, " 💽 %s |", "sh /home/hy/.files/scripts/statusbar/disk" },
 
-        { run_command, "^b#1f2335^^c#98BB6C^ 󰜁  %s ", "sh /home/hy/.cystem/slstatus/shellmodules/time" },
+        { run_command, "^b#1f2335^^c#955f83^ 󰜁  %s ", "sh /home/hy/.cystem/slstatus/shellmodules/time" },
 
 };
 
